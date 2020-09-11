@@ -1,0 +1,50 @@
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="menu.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="achtergrond">
+      <img class="achtergrond" />
+    </div>
+
+    <section id="pagina">
+      <div class="logo">
+        <img class="logoimg" src="../foto/logo.png" alt="logo" />
+      </div>
+      <div class="info"><a href="info.html">info</a></div>
+      <div class="wie"><a href="wie.html">wie</a></div>
+      <div class="uitleg"><a href="uitleg.html">uitleg</a></div>
+      <div class="hmenu">
+        <a
+          onclick="goBack()"
+          class="fa fa-navicon"
+          style="font-size: 45px;"
+        ></a>
+      </div>
+    </section>
+
+    <div class="x1"></div>
+    <div class="kop">Meer</div>
+    <div class="x2"></div>
+    <div class="text">
+      <button><a href="../home/start.html">Terug naar start</a></button><br />
+      <button><a href="../home/einden.html">Naar het einden</a></button><br />
+    </div>
+  </body>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</html>
